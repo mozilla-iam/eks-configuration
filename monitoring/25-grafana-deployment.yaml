@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
@@ -75,7 +76,6 @@ spec:
       - configMap:
           name: grafana-dashboard-k8s-cluster-overview
         name: grafana-dashboard-k8s-cluster-overview
-
 ---
 apiVersion: v1
 kind: Service
@@ -89,7 +89,6 @@ spec:
     targetPort: http
   selector:
     app: grafana
-
 ---
 apiVersion: v1
 kind: ServiceAccount
