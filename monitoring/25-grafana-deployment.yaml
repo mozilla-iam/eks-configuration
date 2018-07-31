@@ -6,6 +6,8 @@ metadata:
     app: grafana
   name: grafana
   namespace: monitoring
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   replicas: 1
   selector:
