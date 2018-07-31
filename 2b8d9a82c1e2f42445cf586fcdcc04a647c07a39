@@ -1,0 +1,1 @@
+{"jobID":"29da8fef-d30c-927b-0bef-d893d0bfffc8","spec":{"type":"policy","cause":{"Message":"","User":"The-smooth-operator \u003calberto.delbarrio.albelda@gmail.com\u003e"},"spec":{"monitoring:deployment/grafana":{"add":{"automated":"true"},"remove":{}}}},"result":null}
