@@ -46,9 +46,19 @@ metadata:
   name: prometheus-general
   namespace: monitoring
 spec:
+  alerting:
+    alertmanagers:
+      - namespace: monitoring
+        name: alertmanager-main
+        port: web
   serviceAccountName: prometheus
   serviceMonitorNamespaceSelector: {}
   serviceMonitorSelector: {}
   resources:
     requests:
       memory: 400Mi
+  # Define which rules to mount into Prometheus.
+  ruleSelector:
+    matchLabels:
+      role: alert-rules
+      prometheus: prometheus-general
