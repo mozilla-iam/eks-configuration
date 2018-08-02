@@ -5,6 +5,8 @@ metadata:
   name: helloworld-deployment
   labels:
     app: helloworld
+  annotations:
+    flux.weave.works/automated: 'true'
 spec:
   replicas: 1
   selector:
