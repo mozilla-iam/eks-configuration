@@ -1,0 +1,1 @@
+{"jobID":"8f90b7fd-9b21-981c-93ce-2cd8c441f771","spec":{"type":"policy","cause":{"Message":"","User":"Daniel Hartnell \u003cdanielhartnell@gmail.com\u003e"},"spec":{"default:deployment/helloworld-deployment":{"add":{"automated":"true"},"remove":{}}}},"result":null}
