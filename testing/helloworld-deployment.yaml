@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: danielhartnell/helloworld:v2
+        image: danielhartnell/helloworld:v3
         ports:
         - containerPort: 8080
 ---
