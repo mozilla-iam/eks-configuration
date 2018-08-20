@@ -6,4 +6,4 @@ metadata:
   labels:
     app: ingress-nginx
 data:
-  use-proxy-protocol: "false"
+  use-proxy-protocol: "true"
