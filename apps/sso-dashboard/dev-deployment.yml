@@ -10,6 +10,8 @@ metadata:
   name: sso-dashboard
   labels:
     app: sso-dashboard
+    keel.sh/trigger: poll
+    keel.sh/policy: force
   namespace: development
 spec:
   replicas: 3
