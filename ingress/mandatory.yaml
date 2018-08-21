@@ -70,6 +70,8 @@ metadata:
   namespace: ingress-nginx
   labels:
     app: ingress-nginx
+data:
+  use-proxy-protocol: "true"
 ---
 
 kind: ConfigMap
